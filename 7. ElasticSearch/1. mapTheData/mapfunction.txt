@@ -1,0 +1,28 @@
+{
+	"record":{
+		"properties":{
+			"res_name":{
+				"type":"keyword"
+				},
+			"review_num":{
+				"type":"keyword"
+				},
+			"address":{
+				"type":"keyword"
+				},
+			"sentimental_point":{
+				"type":"float"
+				},
+			"star_point":{
+				"type":"float"
+				},
+			"date":{
+				"type":"date",
+				"format":"yyyy-MM-dd"
+				},
+			"word":{
+				"type":"keyword"
+				}
+			}
+		}
+}
